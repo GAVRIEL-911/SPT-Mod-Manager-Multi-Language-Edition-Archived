@@ -1,99 +1,100 @@
-# SPT Mod Manager – Multi-Language Edition
+SPT Mod Manager – Multi-Language Edition
 
-A multi-language build of [Nevek20/SPT_Mod_Manager](https://github.com/Nevek20/SPT_Mod_Manager) **v0.5.3**.
+«⚠️ This repository has been archived and is no longer actively maintained.
 
-A dedicated mod manager for **Single Player Tarkov (SPT)** with support for browsing and installing mods from Forge, enabling/disabling, conflict checks, list import/export, and more. The UI is fully localized; language is selected from a compact dropdown instead of crowding the main toolbar with extra buttons.
+The multi-language localization developed in this repository has been provided to the original author of SPT Mod Manager and will be maintained and continued in the upstream project.
 
-> ⚠️ Unofficial redistribution. All rights to the original project belong to its author. This repository only provides multi-language UI support and a portable build for convenience. Not affiliated with the original author, the SPT team, or Battlestate Games.
-
----
-
-## Supported Languages
-
-| Code | Language | Coverage |
-|------|----------|----------|
-| **zh-CN** | 简体中文 (Simplified Chinese) | Full (default) |
-| **en** | English | Full |
-| **pt-BR** | Português (Brasil) | Full |
-| **ru** | Русский | Full |
-| **fr** | Français | Full |
-| **ja** | 日本語 | Full |
-| **de** | Deutsch | Full |
-
-Language is changed from the **dropdown in the top-right corner** (click the current language short label, e.g. **中** / **EN** / **RU**). The choice is saved and restored on the next launch.
+For the latest version and future updates, please use the upstream project.»
 
 ---
 
-## Features
+📦 Project Status
 
-- **Seven UI languages** with a settings-style dropdown (no more side-by-side language buttons on the main page)
-- **Full UI localization** for every supported language: buttons, toasts, filters, Forge search, conflict checks, bulk actions, and more
-- **Forge integration**: browse, search, one-click install, and update checks
-- Unified management of **client / server / hybrid** mods
-- Conflict detection, mod list export/import, and bulk operations
-- Based on upstream **v0.5.3** (browsing fixes and related improvements included)
-- **Portable**: extract and run, no installer required
+Archived — Localization transferred upstream
 
-Upstream feature set (installation, organization, reliability, Forge catalogue) is unchanged. See the [original README](https://github.com/Nevek20/SPT_Mod_Manager/blob/main/README.md) for the full list.
+This repository was created as a multi-language edition of "SPT Mod Manager" (https://github.com/Nevek20/SPT_Mod_Manager), based on v0.5.3.
 
----
+The purpose of this project was to provide a more complete multilingual experience for the SPT Mod Manager, including Chinese, English, Portuguese, Russian, French, Japanese, and German localization.
 
-## Quick Start
+The localization work has now been handed over to the original author. Future versions of SPT Mod Manager will continue to incorporate and maintain the relevant translation work upstream.
 
-1. Go to [Releases](../../releases) and download the latest `SPT-Mod-Manager-*-win-x64.zip`
-2. Extract it to any folder
-3. Double-click **`SPT Mod Manager.exe`**
-4. Select your SPT instance folder and start managing mods
+Therefore, this repository will no longer receive feature updates, translation updates, or compatibility updates.
 
-On first launch the default language is **Simplified Chinese**. Switch at any time via the top-right language dropdown.
-
-If Windows SmartScreen shows **"Windows protected your PC"**, choose **More info** → **Run anyway**. This is expected for unsigned indie builds and does not mean the app is malicious.
+This repository is preserved for historical, archival, and attribution purposes.
 
 ---
 
-## Screenshots
+🔗 Upstream Project
 
-Not at the moment...
+Original Project:
+"Nevek20/SPT_Mod_Manager" (https://github.com/Nevek20/SPT_Mod_Manager)
 
----
+Original Author: TioEmir / Nevek20
 
-## Relationship to the Original Project
+For:
 
-| Item | Details |
-|------|---------|
-| Upstream | [Nevek20/SPT_Mod_Manager](https://github.com/Nevek20/SPT_Mod_Manager) |
-| Original author | TioEmir / Nevek20 |
-| Base version | **v0.5.3** |
-| Changes in this repo | Multi-language i18n (`zh-CN` / `en` / `pt-BR` / `ru` / `fr` / `ja` / `de`), language **dropdown** instead of main-page toggle buttons, Simplified Chinese as default |
-| Business logic | **Unchanged** — only i18n and language UI were extended |
+- Latest releases
+- New features
+- SPT version compatibility
+- Updated translations
+- Bug fixes
+- Future development
 
-This localization does **not** modify install, enable/disable, Forge matching, or other core behaviour.
+please visit the upstream repository.
 
----
-
-## Build from Source
-
-```bash
-git clone https://github.com/YOUR_USERNAME/SPT-Mod-Manager-zh-CN.git
-cd SPT-Mod-Manager-zh-CN
-npm install
-npm run electron:dev    # development
-npm run electron:build  # package Windows build
-```
-
-Requirements: Node.js 18+, Windows (or a cross-compile setup with electron-builder).
-
-Portable output is typically under `release/` as a zip / unpacked folder containing `SPT Mod Manager.exe`.
+«The upstream repository is now the authoritative source for SPT Mod Manager.»
 
 ---
 
-## License
+🌐 Localization Contribution
 
-MIT — same as the upstream project. See [LICENSE](LICENSE).
+The following languages were included in this multi-language edition:
+
+Language| Code
+简体中文| "zh-CN"
+English| "en"
+Português (Brasil)| "pt-BR"
+Русский| "ru"
+Français| "fr"
+日本語| "ja"
+Deutsch| "de"
+
+The localization work was developed independently and subsequently provided to the original author for continued integration and maintenance.
 
 ---
 
-## Credits
+🙏 Credits
 
-- Original project: [Nevek20/SPT_Mod_Manager](https://github.com/Nevek20/SPT_Mod_Manager) by TioEmir
-- Multi-language edition & Chinese localization maintained independently for community convenience
+Special thanks to TioEmir / Nevek20 for creating and maintaining the original SPT Mod Manager.
+
+Thanks also to the SPT community for the feedback and support that helped make the multi-language edition possible.
+
+This repository represents the localization work contributed during the development of the multi-language edition and is preserved as part of its development history.
+
+---
+
+⚠️ Important
+
+This repository is not the official SPT Mod Manager repository and is not affiliated with the SPT team or Battlestate Games.
+
+The original project, its authors, and the SPT project retain their respective rights and credits.
+
+For current development, always refer to the upstream repository.
+
+---
+
+📜 License
+
+MIT License — see "LICENSE" (LICENSE).
+
+The license of the upstream project applies according to the original project's terms.
+
+---
+
+Repository Status
+
+🗃️ ARCHIVED
+🔄 Localization transferred upstream
+🚫 No further development planned
+
+Thank you to everyone who used, tested, or contributed to this project.
